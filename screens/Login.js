@@ -17,6 +17,7 @@ import {
   updatePassword,
 } from "firebase/auth";
 import { auth } from "../firebase";
+import GoogleSignIn from "./GoogleSignIn";
 
 const Login = () => {
   const navigation = useNavigation();
@@ -90,6 +91,7 @@ const Login = () => {
           <TouchableOpacity onPress={handleForgetPassword}>
             <Text style={styles.forgetPassword}>Forgot Password?</Text>
           </TouchableOpacity>
+          <GoogleSignIn></GoogleSignIn>
         </View>
       </View>
     </KeyboardAvoidingView>
