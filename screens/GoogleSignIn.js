@@ -1,10 +1,10 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View, Text } from "react-native";
 import React from "react";
 
 const GoogleSignIn = () => {
   return (
     <View>
-      <Text>GoogleSignIn</Text>
+      <Text>Hello</Text>
     </View>
   );
 };

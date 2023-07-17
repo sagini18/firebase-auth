@@ -46,6 +46,7 @@ const Login = () => {
         console.log("Register with", user.email);
       })
       .catch((error) => {
+        console.log(error.message);
         alert(error.message);
       });
   };
@@ -56,6 +57,7 @@ const Login = () => {
         console.log("Login with", user.email);
       })
       .catch((error) => {
+        console.log("error:", error.message);
         alert(error.message);
       });
   };
